@@ -4,7 +4,7 @@ body {
 }
 
 .top-bar {
-    background: #333;
+    background: rgb(150, 91, 29);
     color: white;
     padding: 10px;
     
@@ -26,6 +26,7 @@ body {
 .logo {
     text-align: center;
     padding: 20px;
+    color: rgb(134, 69, 15);
 }
 
 .logo img {
@@ -44,8 +45,8 @@ body {
 }
 
 .hero-content {
-    background: rgba(167, 103, 19, 0.2);
-    
+    background: rgba(169, 109, 12, 0.3);
+    height: 100%;
     padding: 20px;
 }
 
@@ -80,7 +81,7 @@ body {
 }
 
 .service-box1 {
-    background:rgb(218, 151, 96);
+    background:rgb(214, 149, 81);
     color: white;
     padding: 20px;
     text-align: center;
@@ -90,7 +91,7 @@ body {
     
 }
 .service-box2 {
-    background: rgb(220, 165, 121);
+    background: rgb(242, 188, 131);
     color: white;
     padding: 20px;
     text-align: center;
@@ -98,7 +99,7 @@ body {
     
 }
 .service-box3 {
-    background: rgb(226, 183, 147);
+    background: rgb(248, 203, 155);
     color: white;
     padding: 20px;
     text-align: center;
@@ -106,7 +107,7 @@ body {
    
 }
 .service-box4 {
-    background:rgb(224, 196, 172);
+    background:rgb(247, 213, 177);
     color: white;
     padding: 20px;
     text-align: center;
@@ -114,5 +115,5 @@ body {
     
 }
 .logo{
-    background-color: rgb(226, 183, 147);
+    background-color:  rgb(242, 188, 131);
 }
