@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:rgb(186, 111, 31);
+    color:white;
+    padding: 15px;
+}
+li,ul,h1{
+    display:inline;
+
+}
+ul{
+    margin-left: 80%;
+}
+li{
+    color: rgb(255, 255, 255);
+}
+
+
+.login{
+    background: - url(doctorlog.jpg);
+    background-color: rgba(169, 105, 41, 0.2);
+    background-size: auto; 
+    padding: 40px; 
+    margin-top: 10%;
+    width: 400px;
+    height: 200px;
+    display:inline-block;
+    margin-left: 35%;
+    border-radius: 20px;
+    
+                                   
+}
+h2{
+    color:  rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+
+button{
+    height: 50px;
+    width: 100px;
+    margin-top: 5%;
+    background-color: rgb(186, 111, 31);
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: rgb(178, 138, 100);
+    cursor: pointer;
+    border-color: white;
+}
+
+input{
+    height: 30px;
+    width: 400px;
+    margin-top: 5%;
+
+
+}
+td{
+    border-radius: 5%;
+}
