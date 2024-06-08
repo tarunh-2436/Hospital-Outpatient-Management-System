@@ -5,6 +5,7 @@
 nav{
     background-color:rgb(186, 111, 31);
     color:white;
+    
     padding: 15px;
 }
 li,ul,h1{
@@ -30,9 +31,12 @@ li{
     display:inline-block;
     margin-left: 35%;
     border-radius: 20px;
-    
+
+    animation: SlideDown 0.7s, fadein 2s;
+    transition: 0.5s;
+} 
                                    
-}
+
 h2{
     color:  rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
@@ -46,11 +50,14 @@ button{
     margin-top: 5%;
     background-color: rgb(186, 111, 31);
     color: white;
+    font-size: 15px;
     border-radius: 10px;
+    animation: fadein 0.2s;
+    transition: 0.3s;
 }
 
 button:hover{
-    background-color: rgb(178, 138, 100);
+    background-color: rgb(115, 66, 19);
     cursor: pointer;
     border-color: white;
 }
@@ -65,3 +72,20 @@ input{
 td{
     border-radius: 5%;
 }
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes SlideDown{
+    0%{
+        transform: translateY(-300px);
+    }
+    100%{
+        transform: translateY(0px);
+    } 
+}  
