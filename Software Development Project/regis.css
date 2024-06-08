@@ -1,3 +1,7 @@
+*{
+    font: trebuchet ms;
+}
+
 body{
     background: url("doctorlog.jpg");
     background-size: cover;
@@ -10,10 +14,7 @@ body{
     
     padding: 10px;
 }
-h1{
-    animation: SlideDown 0.7s;
-    transition: 0.3s;
-}
+
 h2,h3{
     
     color: #c68642;
