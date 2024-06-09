@@ -3,12 +3,18 @@ body{
     background-image: url('doctorlog.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
 }
 
 button1{
     background-color: rgb(219, 149, 84) ;
     color: white;
     padding: 5px;
+}
+
+a{
+    color:rgb(156, 92, 31);
+    text-decoration: none;
 }
 
 button1:hover{
@@ -32,7 +38,13 @@ button1:hover{
     background-color:rgb(186, 111, 31);
     color:white;
     display: flex;
-    width: auto;
+    margin: 0;
+
     
-    padding: 15px;
+    padding: 10px;
+}
+
+
+h2{
+    color: white;
 }
