@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <link rel="stylesheet" href="/static/fail.css">
+    
+</head>
+
+<body>
+    <h1 id = "title">B.S.S. HOSPITAL</h1>
+    <hr>
+    <div class = "unsuccessful">
+        <h2>Appointment Unavailable At Your Requested Slot</h2>
+        <div class="link">
+        
+        </div>
+    </div>
+    <br>
+    <br>
+    <p><a href="{{url_for('appointment',patient=patient,doctor=doctor)}}"><button>Try again?</button></a></p>
+</body>
+</HTML>

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <link rel="stylesheet" href="/static/patient_visit.css">
+    
+</head>
+
+<body>
+    <h1 id = "title">BSS HOSPITAL</h1>
+    <hr>
+    <div class = "details">
+        <p>Name: {{Name}}</p>
+        <p>Age: {{Age}}</p>
+        <p>Gender: {{Gender}}</p>
+    </div>
+        
+    <h1 id = "title">PAST HISTORY</h1>
+    <hr>
+
+    <div class= "details">
+        <p>HYPERTENSION : {{Hypertension}}</p>
+        <p>DIABETES : {{Diabetes}}</p>
+        <p>HEART DISEASE: {{Heart_Disease}}</p>
+        <p>BRONCHIAL ASTHMA: {{Asthma}}</p>
+        <p>EPILESPY: {{Epilepsy}}r</p>
+        <p>STROKE: {{Stroke}}</p>
+        <p>PEPTIC ULCER: {{Peptic_Ulcer}}</p>
+        <p>TUBERCULOSIS: {{Tuberculosis}}</p>
+        <p>SURGICAL: {{Surgery}}</p>
+        <p>ALLERGY: {{Allergy}}</p>
+        <p>SMOKING: {{Smoking}}</p>
+        <p>DRINKING: {{Drinking}}</p>
+    </div> 
+
+    <h1 id = "title">LAST VISIT INFO</h1>
+    
+    <div class = "last">
+        <div class = "details"><p>{{Last_Visit_Date}}</p></div>
+        <div class = "details"><p>{{Last_Visit_Notes}}</p></div>
+        <div class = "details"><p>{{Last_Visit_Prescription}}</p></div>
+    </div>
+
+    <form class = "notes" method="post" action="{{url_for('patientvisit',doctor=doctor,patient=patient)}}">
+        <div class = "input-box">
+            <input type="text" name="notes" placeholder="Doctor's notes">
+            <input type="text" name="prescription" placeholder="Prescription">
+        </div>
+        <div class = butt>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+
+</HTML>

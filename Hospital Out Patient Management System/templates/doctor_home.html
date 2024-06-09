@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Template</title>
+    <link rel="stylesheet" href="/static/doctor_home.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="contact-info">
+                <span>044 - 24615747</span>
+                <span>hospitalbss@gmail.com</span>
+            </div>
+            <div class="social-media">
+                
+            </div>
+        </div>
+        <div class="logo">
+            <img src='/static/images/logo.png' alt="Hospital Logo">
+            <h1>BSS HOSPITAL</h1>
+            
+        </div>
+        
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>WELCOME TO BSS HOSPITAL</h2>
+            <p>We Offer Trusted and Affordable Healthcare</p>
+            <a href = "{{url_for('login')}}"><button>Login as doctor</button></a>
+        </div>
+    </section>
+    <section class="services">
+        <div class="service-box1">
+            <h3>Welcome to Our Hospital</h3>
+            <p>Our hospital is equipped with modern facilities and advanced medical technology to ensure the highest standards of care.</p>
+        </div>
+        <div class="service-box2">
+            <h3>Surgery</h3>
+            <p>Advanced surgical procedures across various specialties and minimally invasive and robotic surgery options</p>
+        </div>
+        <div class="service-box3">
+            <h3>Operating Theaters</h3>
+            <p> Highly trained surgical teams, including surgeons, anesthesiologists, and surgical nurses</p>
+        </div>
+        <div class="service-box4">
+            <h3>Emergency</h3>
+            <p> 24/7 emergency room services and immediate treatment for acute illnesses and injuries</p>
+        </div>
+    </section>
+</body>
+</html>
