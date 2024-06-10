@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <link rel="stylesheet" href="../static/paid.css">
+    
+</head>
+
+<body>
+    <h1 id = "title">B.S.S. HOSPITAL</h1>
+    <hr>
+    <div class="info">
+    <table>
+        <tr>
+            <p><t>Today's Patients (Timing,ID) : {{appointments}}</t></p>
+        </tr>
+    </table>
+    </div>
+    <div class = "id">
+        
+        <form method = 'post', action="{{url_for('choosepatient',doctor=doctor)}}">
+            
+            <table>
+                
+                <tr>
+                    <td>Patient ID: </td><td><input type="txt" name="Patient ID"></td>
+                </tr>
+            </table>
+            <br>
+            <a href="{{url_for('choosepatient',doctor=doctor)}}"><button type="submit">Go</button></a>
+        </form>
+    </div>
+</body>
+</HTML>

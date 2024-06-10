@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Doctors</title>
+    <link rel="stylesheet" href="../static/docs.css">
+</head>
+<body>
+    <div class='header'>
+            <h>BSS Hospital</h>
+
+    </div>
+    <div class="container">
+        <ul>
+        <h1>OUR DOCTORS</h1>
+        <form method="post" action="{{url_for('doctors',patient=patient)}}">
+        <ul>
+        <li><h3><input name="Doctor" placeholder="Enter Name Of Required Doctor"></h3></li>
+        <li><button type="submit" >Submit</button></li>
+        </ul>
+        </form>
+        <br>
+        <div class="doctors-grid">
+            <div class="doctor-card">
+                <img src="../static/images/doctor1.jpg" alt="doctor2">
+                <h2>Cardiologist 1</h2>
+                <p>Cardiology</p>
+                <p>Monday - Saturday</p>
+                <p>17:00 - 20:00</p>
+            </div>
+            <div class="doctor-card">
+                <img src="../static/images/doctor1.jpg" alt="doctor2">
+                <h2>Cardiologist 2</h2>
+                <p>Cardiology</p>
+                <p>Monday - Saturday</p>
+                <p>10:00 - 13:00</p>
+            </div>
+            <div class="doctor-card">
+                <img src="../static/images/doctor1.jpg" alt="doctor3">
+                <h2>General Physician 1</h2>
+                <p>General Medicine</p>
+                <p>Monday - Sunday</p>
+                <p>05:00 - 13:00</p>
+            </div>
+            <div class="doctor-card">
+                <img src="../static/images/doctor1.jpg" alt="doctor4">
+                <h2>General Physician 2</h2>
+                <p>General Medicine</p>
+                <p>Monday - Sunday</p>
+                <p>11:00 - 19:00</p>
+            </div>
+            <div class="doctor-card">
+                <img src="../static/images/doctor1.jpg" alt="doctor5">
+                <h2>General Physician 3</h2>
+                <p>General Medicine</p>
+                <p>Monday - Sunday</p>
+                <p>17:00 - 01:00</p>
+            </div>
+            <div class="doctor-card">
+                <img src="../static/images/doctor1.jpg" alt="doctor6">
+                <h2>General Physician 4</h2>
+                <p>General Medicine</p>
+                <p>Monday - Sunday</p>
+                <p>23:00 - 07:00</p>
+            </div>
+            <div class="doctor-card">
+                <img src="../static/images/doctor1.jpg" alt="doctor7">
+                <h2>Surgeon 1</h2>
+                <p>Surgery</p>
+                <p>Monday - Saturday</p>
+                <p>16:00 - 19:00</p>
+            </div>
+            <div class="doctor-card">
+                <img src="../static/images/doctor1.jpg" alt="doctor8">
+                <h2>Surgeon 2</h2>
+                <p>Surgery</p>
+                <p>Monday - Saturday</p>
+                <p>09:00 - 12:00</p>
+            </div>
+            
+        </div>
+        
+    </div>
+</body>
+</html>

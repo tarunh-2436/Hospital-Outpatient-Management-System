@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<HTML>
+<head>
+    <center>
+    
+    <link rel="stylesheet"  href="/static/app.css">
+    <style>
+        body {
+            background-image: url('/static/images/doctorlog.jpg'); 
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            
+           }
+    </style>
+    </center>
+   
+</head>
+<body>
+    
+        <div class="header">
+        <h1>B.S.S. HOSPITAL</h1>
+        </div>
+        <br></br>
+        <br></br>
+        <br></br>
+        <center>
+        <div class="info">
+            <table>
+            
+                <tr>
+                   <td>OP Time Slots For {{name}} : {{slots}}</td>
+                </tr>
+        
+            </table>
+        </div>
+        <br></br>
+        <br></br>
+        <div class="app">
+            <form method="post" action="{{url_for('appointment',patient=patient, doctor=doctor)}}">
+                <table>
+                    <tr>
+                        <td>DATE: <input type="date" name="Date"></td>
+                    </tr>
+                    <tr>
+                        <td>TIME: <input type="text" name="Time"></td>
+                    </tr>
+                    
+                    
+                    
+                </table>
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+        
+    </center>
+
+    <br>
+    <br>
+</body>
+</HTML>
